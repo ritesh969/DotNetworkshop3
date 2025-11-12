@@ -4,7 +4,7 @@ namespace Task_5
 {
     internal class Loops
     {
-        // 1️⃣ For loop: Sum from 1 to N
+        // For loop: Sum from 1 to N
         public void SumUsingForLoop()
         {
             Console.Write("Enter a number N: ");
@@ -19,7 +19,7 @@ namespace Task_5
             Console.WriteLine($"The sum from 1 to {N} is: {sum}");
         }
 
-        // 2️⃣ While loop: Print 1 to 20, skip multiples of 4, stop at 15
+        // While loop: Print 1 to 20, skip multiples of 4, stop at 15
         public void PrintUsingWhileLoop()
         {
             int num = 1;
@@ -44,7 +44,7 @@ namespace Task_5
             }
         }
 
-        // 3️⃣ Foreach loop: Sum of all elements in an array
+        // Foreach loop: Sum of all elements in an array
         public void SumUsingForEachLoop()
         {
             int[] numbers = new int[5];
